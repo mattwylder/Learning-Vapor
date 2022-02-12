@@ -9,6 +9,7 @@ import Fluent
 import Vapor
 
 final class Song: Model, Content {
+    
     static let schema = "songs"
     
     @ID(key: .id)
